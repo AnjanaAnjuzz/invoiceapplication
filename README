@@ -1,0 +1,20 @@
+# invoiceapplication
+Setting up the app
+Initialize the config file
+
+cp lib/.env.dart.example lib/.env.dart
+
+Support running the code unsigned on Android
+
+cp android/app/build.gradle.dev android/app/build.gradle
+
+Run the app
+
+flutter run
+
+Note: if you don't have an Invoice Ninja backend setup you can test the app with these credentials:
+
+Email: demo@invoiceninja.com
+Password: Password0
+URL: demo.invoiceninja.com
+![Screenshot 2023-04-18 105252](https://user-images.githubusercontent.com/126646857/232678763-dceaa90f-6ecf-4226-bdbf-f7458c7681da.png)
